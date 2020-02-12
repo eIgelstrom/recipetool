@@ -35,6 +35,10 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1 align="center" class="site-heading">
+        <span class="site-heading-upper">What do you crave today?</span>
+        <span class="site-heading-lower">Your Recipe Tool</span>
+      </h1>
       <form onSubmit={getSearch} className="search-form"> 
         <input className="search-bar" type="text" value={search} onChange={updateSearch}/>
         <button className="search-button" type="submit">Search</button>
